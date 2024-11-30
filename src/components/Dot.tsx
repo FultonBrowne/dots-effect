@@ -29,8 +29,8 @@ const Dot: React.FC<DotProps> = ({ x, y, mouseX, mouseY }) => {
         position: "absolute",
         top: y,
         left: x,
-        width: 15, // Adjust dot size
-        height: 15,
+        width: 7, // Adjust dot size
+        height: 7,
         borderRadius: "50%",
         background: "#0070f3",
         transform: "translate(-50%, -50%)",
